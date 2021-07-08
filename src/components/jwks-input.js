@@ -1,5 +1,5 @@
 import React from "react"
-import { Form, Input, Segment, Divider, Message, Checkbox } from "semantic-ui-react"
+import { Form, Input, Segment, Divider } from "semantic-ui-react"
 
 const link1 = "https://www.googleapis.com/oauth2/v3/certs"
 const link2 = "https://accounts.google.com"

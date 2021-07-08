@@ -21,6 +21,7 @@ const Item = ({ valid, title, titleX, description, descriptionX }) => {
   )
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default function({ keys, jwt }) {
   const decoded = decode(jwt)
   if (!decoded) return null

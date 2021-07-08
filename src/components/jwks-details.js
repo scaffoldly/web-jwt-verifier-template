@@ -11,6 +11,7 @@ const getUse = (use = "") => {
   return use
 }
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default function(props) {
   const keys = props.keys || []
   if (keys.length === 0) return null

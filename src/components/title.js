@@ -1,6 +1,7 @@
 import React from "react"
 import { Container, Header, Icon } from "semantic-ui-react"
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default function() {
   return (
     <Container text>
